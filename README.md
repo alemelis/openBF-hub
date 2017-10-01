@@ -5,7 +5,7 @@ Repository of vascular networks for [openBF](https://github.com/INSIGNEO/openBF)
 All the different networks are in `models/` folder. In each folder, an archive containing the openBF configuration files is provided. Download the archive and run it with the [latest openBF release](https://github.com/INSIGNEO/openBF/releases).
 
 ## Models list
-- [Circle of Willis](https://github.com/alemelis/openBF-hub/tree/master/models/alastruey2007modelling)
+- [Circle of Willis](https://github.com/alemelis/openBF-hub/tree/master/models/alastruey2007modelling) from Alastruey et al. (2007)
 
 ## Contribute
 You are welcome to submit your own models developed with openBF. This can be done through a pull request for the `models/` directory. Your submission should consist of a folder containing openBF configurations files and a readme describing the network with relevant references and plots (inlet BC and results) of the obtained results. The main readme should be updated accordingly. Example files are provided in `models/template/`.
