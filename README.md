@@ -6,7 +6,7 @@ Repository of vascular networks for [openBF](https://github.com/INSIGNEO/openBF)
 - [Common carotid](https://github.com/alemelis/openBF-hub/tree/master/models/boilleau2015benchmark/common_carotid)
 - [Iliac bifurcation](https://github.com/alemelis/openBF-hub/tree/master/models/boilleau2015benchmark/iliac_bifurcation)
 - Systemic circulation:
-  <!-- - [ADAN56](https://github.com/alemelis/openBF-hub/tree/master/models/boilleau2015benchmark/adan56) -->
+  - [ADAN56](https://github.com/alemelis/openBF-hub/tree/master/models/boilleau2015benchmark/adan56)
   - [In vitro model](https://github.com/alemelis/openBF-hub/tree/master/models/matthys2007pulse)
 - [Circle of Willis](https://github.com/alemelis/openBF-hub/tree/master/models/alastruey2007modelling)
 

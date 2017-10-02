@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-a_name = "network_results/v1_"
+a_name = "network_results/v10_"
 
 
 sns.set_style("ticks")
@@ -18,8 +18,8 @@ ax3 = fig2.add_subplot(211)
 ax4 = fig2.add_subplot(212)
 sns.despine()
 
-titles = ["Cardiac cycle - Ascending aorta",
-            "Convergence history - Ascending aorta"]
+titles = ["Cardiac cycle - Aortic arch II",
+            "Convergence history - Aortic arch II"]
 for axs, ext, title in zip([[ax1, ax2], [ax3, ax4]], [".last", ".out"], titles):
     for q, ax, m, lbl in zip(["P", "Q"], axs, [133.332, 1e-6], ["$P$ (mmHg)",
                             "$Q$ (ml$\cdot$s$^{-1}$)"]):
