@@ -1,6 +1,6 @@
 const inlet_type = "Q"
 const inlet_BC_switch = 3
-const Ccfl = 0.8
+const Ccfl = 1.
 const cycles = 100
 const rho = 1060.
 const mu = 4.e-3

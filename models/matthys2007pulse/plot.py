@@ -26,7 +26,7 @@ for axs, ext, title in zip([[ax1, ax2], [ax3, ax4]], [".last", ".out"], titles):
 
         w = np.loadtxt("{0}{1}{2}".format(a_name, q, ext))
 
-        if title == "Cardiac cycle":
+        if "Cardiac cycle" in title:
             w[:,0] -= w[0,0]
 
         ax.plot(w[:,0], w[:,3]/m)
